@@ -153,16 +153,20 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="structs\chunk.c" />
+    <ClCompile Include="structs\compiler.c" />
     <ClCompile Include="structs\debug.c" />
     <ClCompile Include="structs\memory.c" />
+    <ClCompile Include="structs\scanner.c" />
     <ClCompile Include="structs\value.c" />
     <ClCompile Include="structs\vm.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
     <ClInclude Include="structs\chunk.h" />
+    <ClInclude Include="structs\compiler.h" />
     <ClInclude Include="structs\debug.h" />
     <ClInclude Include="structs\memory.h" />
+    <ClInclude Include="structs\scanner.h" />
     <ClInclude Include="structs\value.h" />
     <ClInclude Include="structs\vm.h" />
   </ItemGroup>

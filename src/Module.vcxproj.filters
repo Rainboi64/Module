@@ -33,6 +33,12 @@
     <ClCompile Include="structs\vm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="structs\compiler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs\scanner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="structs\chunk.h">
@@ -51,6 +57,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="structs\vm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs\scanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

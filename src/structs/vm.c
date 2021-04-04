@@ -93,3 +93,8 @@ InterpretResult interpret(VM* vm, Chunk* chunk)
 	vm->ip = vm->chunk->code;
 	return run(vm);
 }
+
+InterpretResult interpret(const char* source) {
+    compile(source);
+    return INTERPRET_OK;
+}
